@@ -1,0 +1,20 @@
+{
+  "id": "golden-milk",
+  "titulo": "Golden Milk (Leche Dorada)",
+  "categoria": "Bebidas",
+  "tiempo": "5 min",
+  "raciones": 4,
+  "descripcion": "Mezcla de especias antiinflamatorias para preparar leche dorada. Mezcla base para guardar.",
+  "ingredientes": [
+    "3 tbsp cúrcuma",
+    "2 tbsp jengibre en polvo",
+    "1 tbsp canela",
+    "1/2 tsp pimienta negra"
+  ],
+  "pasos": [
+    "Mezcla todas las especias y guarda en un bote hermético.",
+    "Para preparar una taza: calienta 1 taza de leche vegetal y añade 1 cucharadita de la mezcla.",
+    "Endulza con miel vegana o agave al gusto."
+  ],
+  "notas": "La pimienta negra aumenta la absorción de la cúrcuma. Esta es la mezcla de especias seca — guardar en bote."
+}

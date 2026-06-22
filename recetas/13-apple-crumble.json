@@ -1,0 +1,27 @@
+{
+  "id": "apple-crumble",
+  "titulo": "Apple Crumble",
+  "categoria": "Postres",
+  "tiempo": "50 min",
+  "raciones": 6,
+  "descripcion": "Crumble de manzana con canela, pasas y topping crujiente de avena y frutos secos.",
+  "ingredientes": [
+    "4-5 manzanas peladas y troceadas",
+    "1 tbsp zumo de limón",
+    "1 tbsp azúcar",
+    "2 tsp canela en polvo",
+    "Pasas al gusto",
+    "1 1/4 cup avena (para el topping)",
+    "1/3 cup mantequilla vegana (para el topping)",
+    "1/3 cup azúcar (para el topping)",
+    "Frutos secos al gusto (para el topping)"
+  ],
+  "pasos": [
+    "Precalienta el horno a 180°C.",
+    "Mezcla las manzanas troceadas con el zumo de limón, el azúcar, la canela y las pasas. Coloca en una fuente de horno.",
+    "Para el topping, mezcla la avena, la mantequilla, el azúcar y los frutos secos hasta obtener una textura arenosa.",
+    "Cubre las manzanas con el topping.",
+    "Hornea 35-40 minutos hasta que el topping esté dorado y las manzanas tiernas."
+  ],
+  "notas": ""
+}

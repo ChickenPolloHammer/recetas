@@ -1,0 +1,21 @@
+{
+  "id": "salsa-mayonesa",
+  "titulo": "Mayonesa Vegana",
+  "categoria": "Salsas",
+  "tiempo": "5 min",
+  "raciones": 8,
+  "descripcion": "Mayonesa vegana casera rápida con leche de soja.",
+  "ingredientes": [
+    "1 taza aceite de girasol",
+    "1/2 taza leche de soja",
+    "2 cucharadas vinagre de manzana",
+    "Sal al gusto"
+  ],
+  "pasos": [
+    "Pon la leche de soja en el vaso de la batidora.",
+    "Añade el vinagre y la sal.",
+    "Con la batidora en marcha, añade el aceite en hilo fino muy lentamente hasta que emulsione y quede cremosa.",
+    "Ajusta la sal y conserva en la nevera."
+  ],
+  "notas": "La clave es añadir el aceite muy despacio para que emulsione bien."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bombones-proteicos",
+  "titulo": "Bombones Proteicos",
+  "categoria": "Snacks",
+  "tiempo": "20 min + refrigerar",
+  "raciones": 12,
+  "descripcion": "Bombones energéticos de avena, proteína casera y tahini.",
+  "ingredientes": [
+    "1/2 cup avena molida",
+    "1/2 cup cacahuete en polvo (o mantequilla de cacahuete)",
+    "1/2 cup proteína casera de chocolate",
+    "1 cucharada tahini",
+    "1/8 cup sirope de arce",
+    "1/4 cup leche vegetal",
+    "1/2 cup nueces"
+  ],
+  "pasos": [
+    "Mezcla todos los ingredientes hasta obtener una masa manejable. Añade más leche si queda seca.",
+    "Forma bolitas o bombones con las manos.",
+    "Refrigera al menos 30 minutos antes de servir."
+  ],
+  "notas": "Probar también sin el cacao doblando la cantidad de cacahuete para una versión más suave."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "quiche-bolets",
+  "titulo": "Quiche de Setas, Espinacas y Bacon",
+  "categoria": "Platos principales",
+  "tiempo": "50 min",
+  "raciones": 6,
+  "descripcion": "Quiche vegana con base de tofu, setas, espinacas y tempeh crujiente sobre masa de hojaldre.",
+  "ingredientes": [
+    "800g tofu",
+    "Levadura nutricional al gusto",
+    "Sal",
+    "Ajo en polvo",
+    "Orégano",
+    "Aceite de oliva",
+    "1 bandeja de setas",
+    "1 cebolla",
+    "1/2 bolsa espinacas",
+    "3 tiras de tempeh",
+    "1 lámina masa de hojaldre"
+  ],
+  "pasos": [
+    "Tritura el tofu con levadura nutricional, cúrcuma, sal, ajo en polvo, orégano y aceite de oliva hasta obtener una crema.",
+    "Saltea las setas con la cebolla en una plancha o sartén.",
+    "Saltea las espinacas por separado en la plancha.",
+    "Corta el tempeh por la mitad y trocea. Hazlo crujiente en la sartén.",
+    "Mezcla todo (tofu, setas, espinacas y tempeh) y vierte sobre la masa de hojaldre estirada en el molde.",
+    "Hornea a 180°C unos 30 minutos en la posición más baja del horno."
+  ],
+  "notas": "Poner el molde en la posición más baja del horno para que la base quede bien crujiente."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cookies-rapidas",
+  "titulo": "Cookies Rápidas",
+  "categoria": "Postres",
+  "tiempo": "20 min",
+  "raciones": 10,
+  "descripcion": "Cookies sencillas y rápidas con chips de chocolate, listas en 20 minutos.",
+  "ingredientes": [
+    "1/2 cup azúcar",
+    "1/2 cup aceite",
+    "1/4 cup leche vegetal",
+    "1 tsp sal",
+    "1.5 cup harina",
+    "1/2 cucharadita levadura química",
+    "Chips de chocolate al gusto"
+  ],
+  "pasos": [
+    "Mezcla el azúcar, el aceite y la leche.",
+    "Añade la harina, la levadura y la sal. Mezcla hasta obtener una masa.",
+    "Incorpora los chips de chocolate.",
+    "Forma galletas y coloca en bandeja con papel de horno.",
+    "Hornea a 180°C unos 10-12 minutos."
+  ],
+  "notas": ""
+}

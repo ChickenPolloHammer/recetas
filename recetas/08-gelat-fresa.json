@@ -1,0 +1,22 @@
+{
+  "id": "gelat-fresa",
+  "titulo": "Helado de Fresa",
+  "categoria": "Postres",
+  "tiempo": "20 min + congelar",
+  "raciones": 4,
+  "descripcion": "Helado casero de fresa con base de crema y leche de soja.",
+  "ingredientes": [
+    "200ml nata vegetal",
+    "100ml leche de soja",
+    "10g maizena",
+    "40g azúcar",
+    "Fresas al gusto (frescas o congeladas)"
+  ],
+  "pasos": [
+    "Tritura las fresas hasta obtener un puré.",
+    "En un cazo, mezcla la leche de soja con la maizena hasta disolver. Añade la nata y el azúcar.",
+    "Calienta a fuego medio removiendo hasta que espese. Retira del fuego y mezcla con el puré de fresas.",
+    "Deja enfriar y congela. Remueve cada hora las primeras 3-4 horas."
+  ],
+  "notas": "Los pasos de preparación no estaban en el documento original — completados con técnica estándar."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cebollas-encurtidas",
+  "titulo": "Cebollas Encurtidas",
+  "categoria": "Conservas",
+  "tiempo": "15 min + reposo",
+  "raciones": 8,
+  "descripcion": "Cebollas moradas encurtidas en vinagre, perfectas para acompañar tacos, burgers y ensaladas.",
+  "ingredientes": [
+    "Cebollas moradas (para llenar un bote grande de aceitunas)",
+    "1 vaso de agua",
+    "1 vaso de vinagre",
+    "1/2 cucharada de sal",
+    "2 cucharadas de azúcar"
+  ],
+  "pasos": [
+    "Corta las cebollas en aros finos y coloca en el bote.",
+    "En un cazo, mezcla el agua, el vinagre, la sal y el azúcar.",
+    "Lleva a ebullición removiendo hasta disolver el azúcar y la sal.",
+    "Vierte el líquido caliente sobre las cebollas en el bote.",
+    "Deja enfriar, tapa y refrigera. Listas en unas horas, mejor al día siguiente."
+  ],
+  "notas": "Aguantan en la nevera hasta 2-3 semanas."
+}

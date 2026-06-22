@@ -1,0 +1,27 @@
+{
+  "id": "barritas-proteicas",
+  "titulo": "Barritas Proteicas",
+  "categoria": "Snacks",
+  "tiempo": "20 min + congelar",
+  "raciones": 8,
+  "descripcion": "Barritas energéticas caseras con avena, proteína y frutos secos, cubiertas de chocolate negro.",
+  "ingredientes": [
+    "1.5 cup avena",
+    "1/2 cup frutos secos",
+    "1/2 cup proteína en polvo",
+    "Sal",
+    "1/2 cup agave",
+    "1/2 cup mantequilla de cacahuete",
+    "1 tsp vainilla",
+    "Leche vegetal si es necesario",
+    "Chocolate negro para cubrir"
+  ],
+  "pasos": [
+    "Mezcla la avena, la proteína, los frutos secos y la sal en un bol.",
+    "Añade el agave, la mantequilla de cacahuete y la vainilla. Mezcla bien. Añade un poco de leche si la mezcla queda demasiado seca.",
+    "Forma barritas y coloca en un molde forrado con papel.",
+    "Funde el chocolate negro al baño maría (sin que el recipiente toque el agua) y vierte por encima.",
+    "Mete al congelador hasta que estén firmes."
+  ],
+  "notas": "El chocolate se funde mejor al baño maría sin contacto directo con la sartén."
+}

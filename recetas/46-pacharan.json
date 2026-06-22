@@ -1,0 +1,23 @@
+{
+  "id": "pacharan",
+  "titulo": "Pacharán Casero",
+  "categoria": "Bebidas",
+  "tiempo": "3 meses de maceración",
+  "raciones": 50,
+  "descripcion": "Pacharán casero con endrinas maceradas en anisado de vodka y anís dulce.",
+  "ingredientes": [
+    "500ml anís dulce (El Mono o La Castellana)",
+    "5 litros vodka económico",
+    "1 kg azúcar",
+    "Endrinas (unos 200g por botella de litro)"
+  ],
+  "pasos": [
+    "Mezcla el vodka con el azúcar removiendo hasta que se disuelva.",
+    "Añade el anís dulce a la mezcla.",
+    "Llena botellas de litro con endrinas hasta 1/5 de su altura (aprox. 200g).",
+    "Rellena con el anisado (unos 800ml por botella).",
+    "Guarda a oscuras en un lugar fresco. Mueve las botellas al menos 2 veces por semana para homogenizar.",
+    "Macerar un mínimo de 3 meses."
+  ],
+  "notas": "Guardar en oscuridad y sin oscilaciones de temperatura. Mover las botellas regularmente para una maceración uniforme."
+}

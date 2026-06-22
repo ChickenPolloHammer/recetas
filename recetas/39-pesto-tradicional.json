@@ -1,0 +1,24 @@
+{
+  "id": "pesto-tradicional",
+  "titulo": "Pesto Tradicional",
+  "categoria": "Salsas",
+  "tiempo": "15 min",
+  "raciones": 4,
+  "descripcion": "Pesto genovés clásico hecho en mortero con albahaca fresca, piñones y parmesano.",
+  "ingredientes": [
+    "1 diente de ajo",
+    "1 cucharadita sal",
+    "3 cucharadas piñones",
+    "100g hojas de albahaca fresca (4 manojos)",
+    "3 cucharadas parmesano vegano o levadura nutricional",
+    "5-6 cucharadas aceite de oliva virgen extra"
+  ],
+  "pasos": [
+    "En un mortero, machaca el ajo con la sal hasta obtener una pasta.",
+    "Añade los piñones y sigue machacando.",
+    "Incorpora las hojas de albahaca poco a poco y machaca hasta integrar todo.",
+    "Añade el parmesano y el aceite de oliva. Mezcla hasta obtener una salsa homogénea.",
+    "Al servir, añade un poco del agua de cocción de la pasta para aligerar el pesto."
+  ],
+  "notas": "El agua de cocción al servir mejora mucho la textura y la adherencia a la pasta."
+}

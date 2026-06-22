@@ -1,0 +1,31 @@
+{
+  "id": "carrot-cake-sano",
+  "titulo": "Carrot Cake Sano",
+  "categoria": "Postres",
+  "tiempo": "55 min",
+  "raciones": 8,
+  "descripcion": "Pastel de zanahoria saludable con avena, plátano y proteína de soja.",
+  "ingredientes": [
+    "2-3 zanahorias ralladas",
+    "1 plátano grande machacado",
+    "400ml leche vegetal",
+    "2 cucharadas sirope",
+    "1/2 cucharadita edulcorante",
+    "2 cucharadas crema de cacahuete",
+    "30g proteína de soja (1 cazo)",
+    "2 cups avena",
+    "1/2 cucharadita levadura química",
+    "2 cucharaditas canela",
+    "Pizca de nuez moscada",
+    "Nueces al gusto"
+  ],
+  "pasos": [
+    "Precalienta el horno a 180°C.",
+    "Mezcla todos los ingredientes húmedos: plátano, leche vegetal, sirope, edulcorante y crema de cacahuete.",
+    "Añade la zanahoria rallada.",
+    "Incorpora los ingredientes secos: avena, proteína, levadura, canela y nuez moscada.",
+    "Añade las nueces y mezcla.",
+    "Vierte en un molde y hornea 45 minutos a 180°C."
+  ],
+  "notas": ""
+}

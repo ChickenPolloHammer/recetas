@@ -1,0 +1,25 @@
+{
+  "id": "chia-chocolate-cookies",
+  "titulo": "Chia Chocolate Cookies",
+  "categoria": "Postres",
+  "tiempo": "25 min",
+  "raciones": 12,
+  "descripcion": "Galletas de chocolate y chía sin gluten, con base de plátano y mantequilla de cacahuete.",
+  "ingredientes": [
+    "2 plátanos",
+    "1 cup mantequilla de cacahuete",
+    "1/4 cup semillas de chía remojadas en 1/4 cup agua 10 min",
+    "1/4 cup cacao en polvo",
+    "1/4 cup azúcar",
+    "1 tsp vainilla",
+    "1 tsp levadura química"
+  ],
+  "pasos": [
+    "Remoja las semillas de chía en agua durante 10 minutos hasta que gelifiquen.",
+    "Aplasta los plátanos y mezcla con la mantequilla de cacahuete.",
+    "Añade la chía gelificada, el cacao, el azúcar, la vainilla y la levadura. Mezcla bien.",
+    "Forma pequeñas galletas sobre papel de horno y aplana ligeramente.",
+    "Hornea a 180°C durante 10-12 minutos. Deja enfriar antes de comer."
+  ],
+  "notas": ""
+}

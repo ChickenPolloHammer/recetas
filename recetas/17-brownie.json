@@ -1,0 +1,31 @@
+{
+  "id": "brownie",
+  "titulo": "Brownie Vegano",
+  "categoria": "Postres",
+  "tiempo": "50 min",
+  "raciones": 9,
+  "descripcion": "Brownie vegano intenso de chocolate con huevo de lino. Opcionalmente con capa de crema Lotus en el centro.",
+  "fuente": "https://tasty.co/recipe/the-best-ever-vegan-brownies",
+  "ingredientes": [
+    "225g chocolate vegano",
+    "2 cucharadas linaza molida",
+    "6 cucharadas agua",
+    "150g azúcar (+ 2 cucharadas)",
+    "115g mantequilla vegana derretida (mezcla de cacahuete y aceite de girasol)",
+    "2 tsp extracto de vainilla",
+    "95g harina (+ 2 cucharadas)",
+    "30g cacao en polvo",
+    "1 tsp levadura química",
+    "1 tsp sal"
+  ],
+  "pasos": [
+    "Precalienta el horno a 180°C. Forra un molde cuadrado de 20cm con papel de horno.",
+    "Trocea el chocolate: derrite la mitad al microondas (45 segundos) y reserva la otra mitad.",
+    "Mezcla la linaza con el agua y deja reposar 10 min para hacer el huevo de lino.",
+    "Bate el azúcar con la mantequilla hasta que quede suave. Añade la vainilla, el huevo de lino y el chocolate derretido.",
+    "Tamiza la harina, el cacao, la levadura y la sal. Incorpora con espátula sin sobrebatir. Añade los trozos de chocolate reservados.",
+    "Vierte en el molde y alisa.",
+    "Hornea 30-35 minutos hasta que al pinchar el centro con un tenedor salga limpio. Deja enfriar al menos 20 min antes de cortar."
+  ],
+  "notas": "Idea: añadir una capa de crema Lotus congelada en medio de la masa antes de hornear y poner galletas Lotus encima."
+}

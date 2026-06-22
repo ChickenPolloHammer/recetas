@@ -1,0 +1,31 @@
+{
+  "id": "cookies-tasty",
+  "titulo": "Cookies Tasty",
+  "categoria": "Postres",
+  "tiempo": "45 min",
+  "raciones": 10,
+  "descripcion": "Cookies veganas con doble chocolate, crujientes por fuera y tiernas por dentro.",
+  "ingredientes": [
+    "1/2 cup azúcar (100g)",
+    "3/4 cup azúcar moreno (165g), compacto",
+    "1 tsp sal",
+    "1/2 cup aceite de coco refinado (120g), derretido",
+    "1/4 cup leche vegetal (60ml)",
+    "1 tsp extracto de vainilla",
+    "1 1/2 cups harina (185g)",
+    "1/2 tsp bicarbonato",
+    "115g chocolate semidulce vegano, en trozos",
+    "115g chocolate negro vegano, en trozos"
+  ],
+  "pasos": [
+    "En un bol grande, bate el azúcar, el azúcar moreno, la sal y el aceite de coco.",
+    "Añade la leche vegetal y la vainilla, bate hasta que el azúcar se disuelva y la mezcla quede suave.",
+    "Tamiza la harina y el bicarbonato, incorpora con una espátula sin sobrebatir.",
+    "Añade los trozos de chocolate y mezcla.",
+    "Refrigera la masa al menos 30 minutos.",
+    "Precalienta el horno a 180°C.",
+    "Forma bolas con una cuchara de helado y coloca en bandeja con papel, dejando espacio entre ellas.",
+    "Hornea 12-15 minutos hasta que empiecen a dorarse. Deja enfriar completamente."
+  ],
+  "notas": ""
+}

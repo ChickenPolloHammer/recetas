@@ -1,0 +1,28 @@
+{
+  "id": "oatmeal-cookies",
+  "titulo": "Oatmeal Cookies",
+  "categoria": "Postres",
+  "tiempo": "30 min",
+  "raciones": 12,
+  "descripcion": "Galletas de avena con huevo de lino, chips de chocolate o pasas. Versión mejorada con plátano y proteína.",
+  "ingredientes": [
+    "2 cucharadas linaza molida + 6 cucharadas agua (huevo de lino)",
+    "1/4 cup aceite",
+    "1/4 cup azúcar",
+    "Vainilla al gusto",
+    "1 cup avena molida",
+    "1 cup avena en copos",
+    "1 cucharadita levadura química",
+    "Pizca de sal",
+    "Chips de chocolate o pasas al gusto",
+    "Canela al gusto"
+  ],
+  "pasos": [
+    "Mezcla la linaza con el agua y deja reposar 10 minutos.",
+    "Mezcla el huevo de lino con el aceite, el azúcar y la vainilla.",
+    "Añade la avena molida, la avena en copos, la levadura, la sal y la canela.",
+    "Incorpora los chips de chocolate o las pasas.",
+    "Forma galletas y hornea a 180°C unos 12-15 minutos."
+  ],
+  "notas": "Versión mejorada: añadir 1 plátano machacado y una ración de proteína de soja (o sustituir toda la harina de avena por proteína)."
+}

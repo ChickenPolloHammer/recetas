@@ -1,0 +1,25 @@
+{
+  "id": "pancakes-flufis",
+  "titulo": "Pancakes Esponjosos",
+  "categoria": "Desayunos",
+  "tiempo": "20 min",
+  "raciones": 2,
+  "descripcion": "Pancakes veganos ligeros y muy esponjosos.",
+  "fuente": "https://cleananddelicious.com/2018/08/24/vegan-pancake-recipe-light-fluffy/",
+  "ingredientes": [
+    "1 cup harina",
+    "1 tbsp levadura química",
+    "Pizca de sal",
+    "1 cup leche vegetal",
+    "1 tbsp sirope de arce",
+    "1 tbsp aceite para cocinar"
+  ],
+  "pasos": [
+    "Mezcla los ingredientes secos: harina, levadura y sal.",
+    "Añade la leche vegetal y el sirope. Mezcla hasta integrar sin sobrebatir.",
+    "Calienta una sartén con el aceite a fuego medio.",
+    "Vierte porciones de masa y cocina hasta que aparezcan burbujas. Da la vuelta y cocina 1-2 min más.",
+    "Más detalles en la receta original del enlace."
+  ],
+  "notas": "Receta completa en: https://cleananddelicious.com/2018/08/24/vegan-pancake-recipe-light-fluffy/"
+}

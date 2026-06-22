@@ -1,0 +1,23 @@
+{
+  "id": "pancakes-proteina",
+  "titulo": "Pancakes de Proteína",
+  "categoria": "Desayunos",
+  "tiempo": "20 min",
+  "raciones": 2,
+  "descripcion": "Pancakes esponjosos con proteína vegetal y plátano.",
+  "ingredientes": [
+    "1 plátano machacado",
+    "3/4 cup leche vegetal",
+    "1 cucharada sirope de arce",
+    "1 cup harina de proteína",
+    "1 tbsp levadura química",
+    "Pizca de sal"
+  ],
+  "pasos": [
+    "Mezcla el plátano machacado con la leche y el sirope.",
+    "Añade la harina de proteína, la levadura y la sal. Mezcla hasta integrar sin sobrebatir.",
+    "Calienta una sartén antiadherente a fuego medio con un poco de aceite.",
+    "Vierte porciones de masa y cocina hasta que aparezcan burbujas. Da la vuelta y cocina 1-2 min más."
+  ],
+  "notas": ""
+}

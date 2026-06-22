@@ -1,0 +1,21 @@
+{
+  "id": "cookies-proteina-vegana",
+  "titulo": "Cookies de Proteína Vegana",
+  "categoria": "Snacks",
+  "tiempo": "15 min",
+  "raciones": 10,
+  "descripcion": "Cookies de proteína y cacahuete, sin horno o ligeramente horneadas. Tipo polvorón.",
+  "ingredientes": [
+    "1 cup mantequilla de cacahuete",
+    "1 cup proteína en polvo",
+    "2 cucharadas agave",
+    "Pizca de sal"
+  ],
+  "pasos": [
+    "Mezcla todos los ingredientes hasta obtener una masa compacta.",
+    "Forma bolitas o aplana en forma de cookie.",
+    "Opción 1 (sin horno): refrigera 30 minutos hasta que estén firmes.",
+    "Opción 2 (horneadas): hornea a 180°C durante 10 minutos."
+  ],
+  "notas": "La textura tipo polvorón queda mejor sin hornear."
+}

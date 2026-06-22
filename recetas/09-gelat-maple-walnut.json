@@ -1,0 +1,27 @@
+{
+  "id": "gelat-maple-walnut",
+  "titulo": "Helado Maple Walnut",
+  "categoria": "Postres",
+  "tiempo": "30 min + congelar",
+  "raciones": 4,
+  "descripcion": "Helado de sirope de arce con nueces tostadas caramelizadas.",
+  "fuente": "https://www.allrecipes.com/recipe/234009/maple-walnut-ice-cream/",
+  "ingredientes": [
+    "200ml nata vegetal",
+    "100ml leche de soja",
+    "10g maizena",
+    "1/4 cup sirope de arce",
+    "Pizca de sal",
+    "Vainilla al gusto",
+    "1/2 cup nueces",
+    "1/8 cup sirope de arce (para caramelizar nueces)"
+  ],
+  "pasos": [
+    "Tuesta las nueces 15 min a 150°C.",
+    "Lleva el 1/8 cup de sirope de arce a ebullición en una sartén y añade las nueces tostadas. Carameliza 30 segundos. Reserva.",
+    "En un cazo, mezcla la leche de soja con la maizena. Añade la nata, el sirope de arce, la sal y la vainilla.",
+    "Calienta removiendo hasta que espese. Deja enfriar.",
+    "Añade las nueces caramelizadas troceadas y congela. Remueve cada hora las primeras horas."
+  ],
+  "notas": ""
+}

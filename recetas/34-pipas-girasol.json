@@ -1,0 +1,21 @@
+{
+  "id": "pipas-girasol",
+  "titulo": "Pipas de Girasol Tostadas",
+  "categoria": "Snacks",
+  "tiempo": "10 min",
+  "raciones": 4,
+  "descripcion": "Pipas de girasol tostadas en sartén con sal, estilo tradicional.",
+  "ingredientes": [
+    "1 taza pipas de girasol",
+    "1 taza agua",
+    "1 cucharada sal"
+  ],
+  "pasos": [
+    "Calienta una sartén a fuego medio-alto.",
+    "Tuesta las pipas en seco durante 2 minutos removiendo constantemente.",
+    "Disuelve la sal en el agua y viértela sobre las pipas en la sartén.",
+    "Cocina removiendo hasta que el agua se evapore completamente.",
+    "Deja enfriar y guarda en un bote."
+  ],
+  "notas": ""
+}

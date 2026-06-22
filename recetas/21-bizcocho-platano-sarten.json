@@ -1,0 +1,30 @@
+{
+  "id": "bizcocho-platano-sarten",
+  "titulo": "Bizcocho de Plátano en Sartén",
+  "categoria": "Repostería",
+  "tiempo": "50 min",
+  "raciones": 6,
+  "descripcion": "Bizcocho de plátano esponjoso cocinado en sartén a fuego lento, sin horno.",
+  "ingredientes": [
+    "1 tbsp chía + 3 cucharadas agua",
+    "1/4 taza aceite",
+    "1 tsp vainilla",
+    "1/3 taza azúcar",
+    "1 taza leche vegetal",
+    "1 y 1/2 taza harina",
+    "1 y 1/2 tsp levadura en polvo",
+    "Pizca de sal",
+    "1/2 tsp canela",
+    "2 plátanos maduros machacados"
+  ],
+  "pasos": [
+    "Mezcla la chía con 3 cucharadas de agua y deja reposar 5 minutos.",
+    "En un bol, mezcla la chía hidratada con el aceite, la vainilla y el azúcar.",
+    "Añade la leche vegetal y mezcla.",
+    "Incorpora la harina, la levadura, la sal y la canela. Mezcla hasta integrar.",
+    "Añade los plátanos machacados.",
+    "Vierte en una sartén antiadherente a fuego muy bajo. Tapa y cocina 20 minutos.",
+    "Da la vuelta con cuidado con un plato y cocina 20 minutos más."
+  ],
+  "notas": "Fuego muy bajo para que no se queme. Tapa durante toda la cocción."
+}

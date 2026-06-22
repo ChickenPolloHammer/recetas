@@ -1,0 +1,25 @@
+{
+  "id": "gelat-xocolata",
+  "titulo": "Helado de Chocolate",
+  "categoria": "Postres",
+  "tiempo": "20 min + congelar",
+  "raciones": 4,
+  "descripcion": "Helado casero de chocolate con base de crema y leche de soja.",
+  "ingredientes": [
+    "200ml nata vegetal",
+    "100ml leche de soja",
+    "10g maizena",
+    "40g azúcar",
+    "Vainilla al gusto",
+    "40g cacao puro en polvo",
+    "60g chocolate negro"
+  ],
+  "pasos": [
+    "Derrite el chocolate negro al baño maría o microondas.",
+    "En un cazo, mezcla la leche de soja con la maizena hasta disolver. Añade la nata, el azúcar, el cacao y la vainilla.",
+    "Calienta a fuego medio removiendo constantemente hasta que espese.",
+    "Incorpora el chocolate derretido y mezcla bien.",
+    "Deja enfriar y congela. Remueve cada hora las primeras 3-4 horas para evitar cristales de hielo."
+  ],
+  "notas": ""
+}

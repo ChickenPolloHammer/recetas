@@ -1,0 +1,25 @@
+{
+  "id": "bizcocho-yogurt",
+  "titulo": "Bizcocho de Yogurt",
+  "categoria": "Repostería",
+  "tiempo": "40 min",
+  "raciones": 8,
+  "descripcion": "El clásico bizcocho de yogurt, versión vegana con plátano y pepitas opcionales.",
+  "ingredientes": [
+    "1 yogurt de soja natural",
+    "1 medida de aceite de girasol (usar el bote de yogurt)",
+    "1 medida de azúcar",
+    "1 plátano grande machacado",
+    "3 medidas de harina",
+    "1 sobre de levadura química",
+    "Chips de chocolate, nueces o pipas al gusto"
+  ],
+  "pasos": [
+    "Mezcla el yogurt, el aceite, el azúcar y el plátano machacado.",
+    "Añade la harina y la levadura poco a poco. Mezcla hasta obtener una masa homogénea.",
+    "Incorpora los chips de chocolate, nueces o pipas.",
+    "Vierte en un molde engrasado y hornea a 180°C unos 35-40 minutos.",
+    "Comprueba con un palillo que esté bien hecho en el centro."
+  ],
+  "notas": "Usa el propio bote de yogurt como medida para el aceite, azúcar y harina."
+}

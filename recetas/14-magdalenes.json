@@ -1,0 +1,28 @@
+{
+  "id": "magdalenes",
+  "titulo": "Magdalenas Caseras",
+  "categoria": "Repostería",
+  "tiempo": "30 min",
+  "raciones": 12,
+  "descripcion": "Magdalenas veganas esponjosas con piel de limón, sin huevo ni lácteos.",
+  "ingredientes": [
+    "2 tbsp linaza molida + 9 tbsp agua (huevo de lino)",
+    "Ralladura de 1 limón",
+    "1 pizca de sal",
+    "200g azúcar",
+    "100ml aceite de oliva",
+    "100ml margarina derretida",
+    "250ml leche vegetal",
+    "350g harina",
+    "1 sobre levadura química",
+    "Azúcar para espolvorear"
+  ],
+  "pasos": [
+    "Mezcla la linaza con el agua y deja reposar 10 minutos para hacer el huevo de lino.",
+    "Bate el azúcar con el aceite y la margarina. Añade el huevo de lino y la ralladura de limón.",
+    "Incorpora la leche vegetal. Tamiza la harina con la levadura y la sal, y añade poco a poco.",
+    "Rellena moldes de magdalenas hasta 3/4 de su capacidad. Espolvorea azúcar por encima.",
+    "Hornea a 200°C durante 15 minutos."
+  ],
+  "notas": ""
+}

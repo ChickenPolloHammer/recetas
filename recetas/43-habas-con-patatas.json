@@ -1,0 +1,29 @@
+{
+  "id": "habas-con-patatas",
+  "titulo": "Habas con Patatas",
+  "categoria": "Platos principales",
+  "tiempo": "45 min",
+  "raciones": 4,
+  "descripcion": "Guiso tradicional de habas con patatas, tomate y pimentón.",
+  "ingredientes": [
+    "1 cebolla",
+    "Habas al gusto",
+    "1 hoja de laurel",
+    "Pimentón rojo",
+    "Patatas troceadas",
+    "3 dientes de ajo",
+    "Perejil",
+    "1/2 vaso de tomate frito",
+    "Agua",
+    "Sal"
+  ],
+  "pasos": [
+    "Pon agua a hervir.",
+    "Pica la cebolla y sofríe en aceite durante 10 minutos.",
+    "Añade las habas y el laurel, cocina 10 minutos.",
+    "Añade el pimentón, las patatas troceadas, el ajo, el perejil y el tomate frito.",
+    "Cubre con agua y deja chup-chup sin tapar durante 25 minutos.",
+    "Ajusta la sal y sirve."
+  ],
+  "notas": ""
+}

@@ -1,0 +1,25 @@
+{
+  "id": "salsa-picante",
+  "titulo": "Salsa Picante Casera",
+  "categoria": "Salsas",
+  "tiempo": "20 min",
+  "raciones": 6,
+  "descripcion": "Salsa picante casera con pimientos, ajo y anacardos.",
+  "ingredientes": [
+    "Pimientos picantes al gusto",
+    "1 cebolla",
+    "5 dientes de ajo",
+    "Sal",
+    "3 cucharadas tomate frito",
+    "2 cucharadas vinagre",
+    "Agua (para que no se pegue al final)",
+    "1 cucharada anacardos"
+  ],
+  "pasos": [
+    "Sofríe la cebolla, el ajo y los pimientos picantes hasta que estén tiernos.",
+    "Añade el tomate frito, el vinagre y los anacardos.",
+    "Tritura todo añadiendo agua poco a poco hasta obtener la consistencia deseada.",
+    "Ajusta la sal y cocina a fuego lento unos minutos más."
+  ],
+  "notas": "Los anacardos dan cremosidad a la salsa."
+}

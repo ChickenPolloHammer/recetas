@@ -1,0 +1,22 @@
+{
+  "id": "helado-menta",
+  "titulo": "Helado de Menta",
+  "categoria": "Postres",
+  "tiempo": "15 min + congelar",
+  "raciones": 4,
+  "descripcion": "Helado vegano de menta cremoso con base de leche de coco.",
+  "ingredientes": [
+    "1 lata leche de coco",
+    "1/2 tsp espirulina (o 3 pastillas)",
+    "5 gotas aceite esencial de menta o 1/4 tsp extracto de menta",
+    "1/4 cup agave",
+    "Pizca de sal"
+  ],
+  "pasos": [
+    "Mezcla todos los ingredientes en un bol hasta que estén bien integrados.",
+    "Vierte en un molde apto para congelador.",
+    "Congela al menos 4 horas o hasta que esté firme.",
+    "Saca unos minutos antes de servir para que sea más fácil de scoop."
+  ],
+  "notas": "La espirulina da el color verde natural. Ajusta la menta a tu gusto."
+}

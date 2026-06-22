@@ -1,0 +1,20 @@
+{
+  "id": "leche-avena",
+  "titulo": "Leche de Avena Casera",
+  "categoria": "Bebidas",
+  "tiempo": "5 min",
+  "raciones": 4,
+  "descripcion": "Leche de avena casera con anacardos, cremosa y lista en 5 minutos.",
+  "ingredientes": [
+    "4 cups agua",
+    "1 cup avena",
+    "1/4 cup anacardos"
+  ],
+  "pasos": [
+    "Pon todos los ingredientes en la batidora.",
+    "Bate solo 30 segundos (no más para evitar que quede viscosa).",
+    "Cuela con una bolsa de leche vegetal o un paño fino.",
+    "Conserva en la nevera hasta 3 días."
+  ],
+  "notas": "No batir más de 30 segundos para que no quede pegajosa."
+}

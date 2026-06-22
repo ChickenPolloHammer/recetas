@@ -1,0 +1,33 @@
+{
+  "id": "cookies-buenisimas",
+  "titulo": "Cookies Buenísimas",
+  "categoria": "Postres",
+  "tiempo": "20 min",
+  "raciones": 16,
+  "descripcion": "Cookies veganas con doble chocolate y mantequilla de almendras. Las mejores.",
+  "ingredientes": [
+    "1/4 cup + 1 cucharada aceite de coco refinado, derretido",
+    "3 cucharadas mantequilla de almendras suave",
+    "1/4 cup azúcar",
+    "1/4 cup + 2 cucharadas azúcar moreno",
+    "2 cucharadas agua",
+    "2 cucharadas leche de almendras",
+    "1 tsp extracto de vainilla",
+    "1 1/4 cup harina",
+    "1/2 tsp bicarbonato",
+    "1/2 tsp levadura química",
+    "1/2 tsp sal",
+    "1/2 cup chips de chocolate negro vegano",
+    "1/2 cup chips de chocolate semi-dulce vegano",
+    "Sal en escamas para decorar (opcional)"
+  ],
+  "pasos": [
+    "Mezcla el aceite de coco, la mantequilla de almendras, los azúcares, el agua, la leche y la vainilla.",
+    "Añade la harina, el bicarbonato, la levadura y la sal. Mezcla hasta integrar.",
+    "Incorpora los chips de chocolate.",
+    "Forma galletas y coloca en bandeja con papel.",
+    "Hornea a 180°C durante 7 minutos. No más — quedan mejor poco hechas.",
+    "Espolvorea sal en escamas al salir del horno."
+  ],
+  "notas": "Solo 7 minutos de horno. Parecerán crudas pero se solidifican al enfriar."
+}

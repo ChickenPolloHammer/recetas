@@ -1,0 +1,21 @@
+{
+  "id": "cinamon-rolls",
+  "titulo": "Cinnamon Rolls",
+  "categoria": "Repostería",
+  "tiempo": "2 h",
+  "raciones": 12,
+  "descripcion": "Rollos de canela esponjosos con levadura fresca.",
+  "fuente": "https://minimalistbaker.com/the-worlds-easiest-cinnamon-rolls/",
+  "ingredientes": [
+    "25g levadura fresca",
+    "Azúcar",
+    "Leche vegetal tibia",
+    "Mantequilla vegana"
+  ],
+  "pasos": [
+    "Mezcla la levadura fresca con un poco de azúcar. Espera 5 minutos hasta que espume.",
+    "Mezcla con la leche tibia y la mantequilla. Deja reposar 10 minutos.",
+    "Seguir la receta completa del enlace."
+  ],
+  "notas": "Recetas completas en: https://minimalistbaker.com/the-worlds-easiest-cinnamon-rolls/ y https://tasty.co/recipe/the-best-ever-vegan-cinnamon-rolls"
+}

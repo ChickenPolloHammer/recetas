@@ -1,0 +1,23 @@
+{
+  "id": "tofu-ras-el-hanout",
+  "titulo": "Tofu Ras el Hanout",
+  "categoria": "Platos principales",
+  "tiempo": "25 min",
+  "raciones": 2,
+  "descripcion": "Tofu marinado con ras el hanout y vinagre, salteado con verduras.",
+  "ingredientes": [
+    "200g tofu troceado",
+    "2 cucharadas ras el hanout",
+    "4 cucharadas vinagre",
+    "2 dientes de ajo",
+    "Cebolla",
+    "Pimiento"
+  ],
+  "pasos": [
+    "Marina el tofu con el ras el hanout y el vinagre. Deja reposar al menos 15 minutos.",
+    "Sofríe los ajos troceados, la cebolla y el pimiento en aceite.",
+    "Añade el tofu marinado y saltea hasta que esté dorado.",
+    "Sirve con arroz o cuscús."
+  ],
+  "notas": ""
+}

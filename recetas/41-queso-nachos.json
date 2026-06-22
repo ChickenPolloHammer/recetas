@@ -1,0 +1,22 @@
+{
+  "id": "queso-nachos",
+  "titulo": "Queso para Nachos (Alubias)",
+  "categoria": "Salsas",
+  "tiempo": "10 min",
+  "raciones": 6,
+  "descripcion": "Salsa de queso vegana para nachos con base de alubias blancas y levadura nutricional.",
+  "ingredientes": [
+    "600g alubias blancas cocidas",
+    "1/2 cup levadura nutricional",
+    "1 cup leche vegetal",
+    "Sal al gusto",
+    "Especias para fajita al gusto"
+  ],
+  "pasos": [
+    "Escurre y enjuaga las alubias.",
+    "Tritura las alubias con la levadura nutricional, la leche vegetal, la sal y las especias hasta obtener una crema suave.",
+    "Calienta en un cazo a fuego medio removiendo hasta que espese.",
+    "Ajusta la consistencia añadiendo más leche si es necesario."
+  ],
+  "notas": ""
+}

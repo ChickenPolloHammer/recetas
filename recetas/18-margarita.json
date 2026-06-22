@@ -1,0 +1,22 @@
+{
+  "id": "margarita",
+  "titulo": "Margarita",
+  "categoria": "Bebidas",
+  "tiempo": "5 min",
+  "raciones": 1,
+  "descripcion": "Margarita clásica con tequila, triple sec y lima.",
+  "ingredientes": [
+    "70ml tequila",
+    "40ml triple sec",
+    "1 lima (zumo)",
+    "35g azúcar moreno",
+    "3 cubitos de hielo"
+  ],
+  "pasos": [
+    "Exprime la lima.",
+    "En una coctelera, añade el tequila, el triple sec, el zumo de lima, el azúcar y el hielo.",
+    "Agita bien durante 15 segundos.",
+    "Sirve en un vaso con borde de sal si lo deseas."
+  ],
+  "notas": ""
+}

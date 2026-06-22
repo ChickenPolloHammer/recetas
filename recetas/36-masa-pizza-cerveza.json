@@ -1,0 +1,21 @@
+{
+  "id": "masa-pizza-cerveza",
+  "titulo": "Masa de Pizza con Cerveza",
+  "categoria": "Masas y panes",
+  "tiempo": "20 min",
+  "raciones": 2,
+  "descripcion": "Masa de pizza rápida con cerveza, sin levadura ni reposo. Receta de Judit y Eric.",
+  "ingredientes": [
+    "200ml cerveza",
+    "Sal al gusto",
+    "1 dedo de aceite (en un vaso normal)",
+    "Harina (la que admita hasta conseguir masa manejable)"
+  ],
+  "pasos": [
+    "Mezcla la cerveza, la sal y el aceite.",
+    "Añade harina poco a poco hasta obtener una masa que no se pegue.",
+    "Amasa brevemente y estira con rodillo muy fino.",
+    "Añade los toppings y hornea a temperatura alta hasta que esté crujiente."
+  ],
+  "notas": "Estirar muy fina para que quede crujiente. No necesita reposo."
+}

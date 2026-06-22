@@ -1,0 +1,27 @@
+{
+  "id": "sopa-moniato-garbanzos",
+  "titulo": "Sopa de Boniato y Garbanzos",
+  "categoria": "Sopas y cremas",
+  "tiempo": "35 min",
+  "raciones": 4,
+  "descripcion": "Sopa reconfortante de boniato y garbanzos con comino y kale.",
+  "ingredientes": [
+    "1 cebolla",
+    "3 dientes de ajo",
+    "1 boniato",
+    "1/2 cucharadita comino",
+    "Kale o espinacas al gusto",
+    "Garbanzos cocidos al gusto",
+    "Agua",
+    "Sal al gusto"
+  ],
+  "pasos": [
+    "Pica la cebolla y sofríe 10 minutos.",
+    "Añade el ajo y el comino y sofríe 5 minutos más.",
+    "Añade el boniato troceado con un poco de agua, tapa y deja cocinar 5 minutos.",
+    "Cubre todo con agua y deja hervir 10 minutos.",
+    "Añade el kale o espinacas y los garbanzos. Cocina 5 minutos más.",
+    "Ajusta la sal y sirve."
+  ],
+  "notas": ""
+}

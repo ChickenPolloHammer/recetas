@@ -1,0 +1,22 @@
+{
+  "id": "proteina-homemade",
+  "titulo": "Proteína Casera en Polvo",
+  "categoria": "Snacks",
+  "tiempo": "10 min",
+  "raciones": 10,
+  "descripcion": "Mezcla casera de semillas y avena para usar como proteína en polvo en batidos y recetas.",
+  "ingredientes": [
+    "1 taza semillas de calabaza",
+    "1 taza semillas de girasol",
+    "1 taza semillas de lino",
+    "1 taza avena",
+    "1/2 taza cacao en polvo",
+    "1 cucharada mantequilla de cacahuete"
+  ],
+  "pasos": [
+    "Tritura todas las semillas, la avena y el cacao en una batidora o procesador de alimentos hasta obtener un polvo fino.",
+    "Añade la mantequilla de cacahuete y mezcla.",
+    "Conserva en un bote hermético en un lugar fresco."
+  ],
+  "notas": "Úsala como sustituto de proteína en polvo comercial en batidos, barritas o galletas."
+}

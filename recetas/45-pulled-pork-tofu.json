@@ -1,0 +1,26 @@
+{
+  "id": "pulled-pork-tofu",
+  "titulo": "Pulled Pork de Tofu",
+  "categoria": "Platos principales",
+  "tiempo": "30 min",
+  "raciones": 3,
+  "descripcion": "Pulled pork vegano hecho con tofu deshidratado en airfryer y caramelizado con salsa BBQ de pepinillo.",
+  "ingredientes": [
+    "Tofu firme",
+    "Aceite",
+    "Pimentón dulce",
+    "Tomate frito",
+    "Agua",
+    "Salsa de soja",
+    "Salsa BBQ sabor pepinillo"
+  ],
+  "pasos": [
+    "Corta el tofu en tiras o desmenúzalo con las manos.",
+    "Mezcla con aceite y pimentón dulce.",
+    "Deshidrata en la airfryer hasta que quede seco y fibroso.",
+    "En una sartén, calienta el tomate frito con un poco de agua y la salsa de soja.",
+    "Añade el tofu y cocina hasta que la salsa se espese.",
+    "Añade la salsa BBQ de pepinillo y carameliza a fuego alto."
+  ],
+  "notas": "La airfryer es clave para conseguir la textura deshidratada similar al pulled pork."
+}
