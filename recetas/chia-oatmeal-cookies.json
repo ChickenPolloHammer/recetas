@@ -1,0 +1,28 @@
+{
+  "id": "chia-oatmeal-cookies",
+  "titulo": "Chia Oatmeal Cookies",
+  "categoria": "Postres",
+  "tiempo": "30 min",
+  "raciones": 16,
+  "descripcion": "Galletas de avena y chía sin horno, con chips de chocolate y pasas. Saludables y adictivas.",
+  "fuente": "https://modestdish.com",
+  "ingredientes": [
+    "1.5 cucharadas semillas de chía (18g)",
+    "1/4 cup leche de almendras",
+    "2 plátanos",
+    "3/4 cup avena (80g)",
+    "Canela al gusto",
+    "1/4 cup coco rallado (18g)",
+    "1 cajita (28g) pasas",
+    "1/4 cup chips de chocolate (50g)",
+    "1 cucharada mantequilla de almendras"
+  ],
+  "pasos": [
+    "Mezcla las semillas de chía con la leche de almendras y deja reposar 10 minutos hasta que gelifique.",
+    "Aplasta los plátanos con un tenedor hasta hacer un puré.",
+    "Mezcla todos los ingredientes juntos: plátano, chía gelificada, avena, coco, pasas, chips y mantequilla de almendras.",
+    "Forma galletas con una cuchara y aplánalas sobre una bandeja con papel de horno.",
+    "Hornea a 175°C (350°F) durante 15-17 minutos. Deja enfriar antes de comer."
+  ],
+  "notas": "Unas 16 galletas con cuchara de helado. Cuanto más maduro el plátano, más dulces quedan."
+}

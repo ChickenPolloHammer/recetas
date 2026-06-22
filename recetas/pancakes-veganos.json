@@ -1,0 +1,25 @@
+{
+  "id": "pancakes-veganos",
+  "titulo": "Pancakes Veganos Ligeros y Esponjosos",
+  "categoria": "Desayunos",
+  "tiempo": "20 min",
+  "raciones": 2,
+  "descripcion": "Pancakes veganos clásicos, ligeros y muy esponjosos. Sin huevo ni lácteos.",
+  "fuente": "https://tinyurl.com/ydec5fvh",
+  "ingredientes": [
+    "1 cup harina de trigo integral blanca (o sustituir 1/4 cup por avena — quedan más finos pero sabrosos)",
+    "1 cucharada levadura química",
+    "Pizca de sal",
+    "1 cup leche de almendras sin azúcar",
+    "1 cucharada jarabe de arce",
+    "1 cucharada aceite de coco"
+  ],
+  "pasos": [
+    "En un bol grande mezcla la harina, la levadura y la sal.",
+    "Añade la leche de almendras, el jarabe de arce y el aceite de coco. Mezcla hasta integrar sin sobrebatir.",
+    "Calienta una sartén antiadherente a fuego medio con un poco de aceite de coco.",
+    "Vierte porciones de masa y cocina hasta que aparezcan burbujas en la superficie. Dale la vuelta y cocina 1-2 minutos más.",
+    "Sirve con fruta, sirope o lo que prefieras."
+  ],
+  "notas": "La preparación estaba parcialmente cortada en la imagen. Pasos completados con técnica estándar."
+}

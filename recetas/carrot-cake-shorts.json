@@ -1,0 +1,31 @@
+{
+  "id": "carrot-cake-shorts",
+  "titulo": "Carrot Cake Saludable (Shorts)",
+  "categoria": "Postres",
+  "tiempo": "45 min",
+  "raciones": 8,
+  "descripcion": "Pastel de zanahoria vegano y saludable con cobertura de frosting de proteína opcional.",
+  "ingredientes": [
+    "2 cucharadas linaza molida",
+    "4 cucharadas agua caliente",
+    "1 cucharadita levadura",
+    "1.5 cucharaditas canela",
+    "1/2 cucharadita nuez moscada",
+    "1/2 cucharadita jengibre en polvo",
+    "1/4 cup jarabe de arce",
+    "2 cucharadas mantequilla de cacahuete",
+    "1.5 cups leche de soja",
+    "2 cups avena",
+    "2 zanahorias ralladas",
+    "1/2 cup pasas",
+    "1/2 cup nueces troceadas"
+  ],
+  "pasos": [
+    "Mezcla la linaza con el agua caliente y deja reposar 5 minutos para hacer el huevo de lino.",
+    "En un bol grande, combina todos los ingredientes secos: avena, levadura, canela, nuez moscada y jengibre.",
+    "Añade los ingredientes húmedos: leche de soja, jarabe de arce, mantequilla de cacahuete y el huevo de lino.",
+    "Incorpora las zanahorias ralladas, las pasas y las nueces. Mezcla bien.",
+    "Vierte en un molde y hornea a 180°C durante unos 35-40 minutos."
+  ],
+  "notas": "Frosting opcional: mezcla 1/2 cup de proteína de vainilla con 1 cup de yogur de soja espeso."
+}

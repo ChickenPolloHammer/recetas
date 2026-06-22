@@ -1,0 +1,25 @@
+{
+  "id": "salsa-queso-vegana",
+  "titulo": "Salsa de Queso Vegana",
+  "categoria": "Salsas",
+  "tiempo": "10 min",
+  "raciones": 4,
+  "descripcion": "Salsa de queso vegana rápida y cremosa, perfecta para nachos, pizza o pasta.",
+  "fuente": "https://elavegan.com/easy-vegan-cheese-sauce/",
+  "ingredientes": [
+    "180 ml (3/4 cup) leche de coco en lata",
+    "3 cucharadas (20g) levadura nutricional",
+    "2 cucharadas (15g) harina de tapioca o arrurruz",
+    "1/2 cucharadita sal marina",
+    "1/2 cucharadita cebolla en polvo (opcional)",
+    "1/4 cucharadita ajo en polvo (opcional)",
+    "Pizca de pimentón ahumado (opcional)"
+  ],
+  "pasos": [
+    "Mezcla todos los ingredientes en un cazo con unas varillas hasta que estén bien integrados.",
+    "Enciende el fuego y lleva la mezcla a ebullición sin dejar de remover.",
+    "Baja el fuego y deja cocer a fuego medio-bajo durante un minuto, hasta que la salsa quede elástica y espesa.",
+    "Sirve inmediatamente sobre nachos, pizza, pasta o cualquier plato salado."
+  ],
+  "notas": "Consulta las notas de la receta original para variaciones y trucos de textura."
+}

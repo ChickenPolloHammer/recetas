@@ -1,0 +1,29 @@
+{
+  "id": "salchichas-veganas-seitan",
+  "titulo": "Salchichas Veganas de Seitán",
+  "categoria": "Proteínas veganas",
+  "tiempo": "40 min",
+  "raciones": 3,
+  "descripcion": "Salchichas de seitán caseras, al horno o al vapor. Jugosas y con un sabor ahumado intenso.",
+  "ingredientes": [
+    "200g gluten de trigo",
+    "150g tofu firme",
+    "180-200ml caldo vegetal",
+    "2 cucharadas salsa de soja",
+    "1 cucharada aceite de oliva",
+    "1 cucharadita sal",
+    "1 cucharadita ajo en polvo",
+    "1 cucharadita cebolla en polvo",
+    "1 cucharadita pimentón (mejor ahumado)",
+    "1/2 cucharadita pimienta negra",
+    "Opcional: nuez moscada, comino, levadura nutricional"
+  ],
+  "pasos": [
+    "Tritura el tofu junto con el caldo, la salsa de soja y el aceite hasta obtener una mezcla homogénea.",
+    "En un bol, mezcla el gluten de trigo con todas las especias.",
+    "Vierte la mezcla líquida sobre los secos y amasa hasta obtener una masa firme y elástica.",
+    "Divide la masa en 6-8 porciones y dales forma de salchicha. Envuelve cada una firmemente en papel de aluminio.",
+    "Al vapor: cocina 30 minutos. Al horno: 180°C durante 25-30 minutos, dándoles la vuelta a mitad."
+  ],
+  "notas": "La preparación estaba cortada en la imagen original — los pasos finales son aproximados."
+}

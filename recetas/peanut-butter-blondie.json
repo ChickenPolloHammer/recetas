@@ -1,0 +1,31 @@
+{
+  "id": "peanut-butter-blondie",
+  "titulo": "Peanut Butter Blondie con Chips de Chocolate",
+  "categoria": "Postres",
+  "tiempo": "35 min",
+  "raciones": 9,
+  "descripcion": "Blondie vegano de mantequilla de cacahuete con base de garbanzos. Húmedo, denso y sin apenas harina.",
+  "fuente": "The Happy Pear",
+  "ingredientes": [
+    "1 cucharada aceite de coco (más extra para engrasar)",
+    "400g garbanzos cocidos, escurridos y enjuagados",
+    "125g mantequilla de cacahuete suave",
+    "4 cucharadas leche o agua",
+    "2 cucharaditas extracto de vainilla",
+    "90ml jarabe de arce o miel",
+    "1/2 cucharadita sal",
+    "1/2 cucharadita levadura química",
+    "1/4 cucharadita bicarbonato",
+    "60g chocolate negro troceado",
+    "1 cucharada cacao en polvo"
+  ],
+  "pasos": [
+    "Precalienta el horno a 200°C. Engrasa un molde cuadrado o redondo de 15cm con aceite de coco.",
+    "Pon los garbanzos en un procesador de alimentos junto con la mantequilla de cacahuete, la leche, la vainilla y el jarabe de arce. Tritura hasta obtener una mezcla homogénea.",
+    "Añade la sal, la levadura, el bicarbonato y el cacao. Mezcla de nuevo.",
+    "Incorpora el chocolate troceado con una espátula.",
+    "Vierte la masa en el molde y hornea unos 20-25 minutos, hasta que al pinchar con un palillo salga limpio.",
+    "Deja enfriar completamente antes de cortar — la textura mejora mucho al enfriar."
+  ],
+  "notas": "La preparación estaba parcialmente cortada en la imagen. Pasos finales completados con técnica estándar de The Happy Pear."
+}

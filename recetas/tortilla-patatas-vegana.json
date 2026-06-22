@@ -1,0 +1,29 @@
+{
+  "id": "tortilla-patatas-vegana",
+  "titulo": "Tortilla de Patatas Vegana",
+  "categoria": "Huevos y vegano",
+  "tiempo": "40 min",
+  "raciones": 4,
+  "descripcion": "Versión vegana de la tortilla española usando harina de garbanzo y maizena como sustituto del huevo.",
+  "ingredientes": [
+    "3 patatas medianas (500g aprox.)",
+    "1/2 cebolla grande",
+    "1/2 calabacín pequeño",
+    "145ml agua",
+    "50g harina de garbanzo",
+    "20g maizena (almidón de maíz)",
+    "1 cucharada vinagre de manzana",
+    "1/2 cucharadita sal fina",
+    "1 pizca bicarbonato",
+    "Sal negra del Himalaya al gusto (opcional, aporta sabor a huevo)"
+  ],
+  "pasos": [
+    "Pela y corta las patatas en láminas finas. Haz lo mismo con la cebolla y el calabacín.",
+    "Sofríe las patatas, cebolla y calabacín en aceite a fuego medio hasta que estén tiernas. Escurre el aceite.",
+    "Bate la harina de garbanzo con la maizena, el agua, el vinagre, la sal y el bicarbonato hasta obtener una mezcla sin grumos.",
+    "Mezcla las patatas pochadas con la mezcla de garbanzo. Deja reposar 5 minutos.",
+    "Cocina en sartén antiadherente a fuego medio. Cuando cuaje por los bordes, dale la vuelta con un plato.",
+    "Cocina 2-3 minutos más. La sal negra del Himalaya al final potencia el sabor a huevo."
+  ],
+  "notas": "La sal negra del Himalaya (kala namak) es opcional pero marca una gran diferencia en el sabor."
+}

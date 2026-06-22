@@ -1,0 +1,25 @@
+{
+  "id": "avena-al-horno",
+  "titulo": "Avena al Horno",
+  "categoria": "Desayunos",
+  "tiempo": "55 min",
+  "raciones": 6,
+  "descripcion": "Avena al horno con mantequilla de maní y chips de chocolate. Perfecta para preparar el desayuno de toda la semana.",
+  "ingredientes": [
+    "2 tazas (500ml) leche vegetal",
+    "1/3 taza (80g) mantequilla de cacahuete",
+    "1/2 taza (120g) jarabe de arce",
+    "Una pizca de sal",
+    "1 cucharada de vainilla",
+    "2 tazas (210g) avena",
+    "Chips de chocolate al gusto"
+  ],
+  "pasos": [
+    "Precalienta el horno a 180°C.",
+    "En un bol grande, mezcla la leche vegetal, la mantequilla de cacahuete, el jarabe de arce, la sal y la vainilla.",
+    "Añade la avena y los chips de chocolate. Mezcla bien.",
+    "Vierte en un molde apto para horno y hornea a 180°C durante 40-50 minutos, hasta que esté dorada y cuajada.",
+    "Sirve con yogur, fruta o lo que quieras."
+  ],
+  "notas": "Se conserva bien en la nevera varios días. Calienta en el microondas para servir."
+}
