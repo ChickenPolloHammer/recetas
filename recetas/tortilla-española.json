@@ -1,0 +1,23 @@
+{
+  "id": "tortilla-española",
+  "titulo": "Tortilla Española",
+  "categoria": "Huevos",
+  "tiempo": "40 min",
+  "raciones": 4,
+  "descripcion": "La clásica tortilla de patatas, jugosa por dentro y dorada por fuera.",
+  "ingredientes": [
+    "6 huevos",
+    "4 patatas medianas",
+    "1 cebolla (opcional)",
+    "Aceite de oliva",
+    "Sal"
+  ],
+  "pasos": [
+    "Pela y corta las patatas en láminas finas. Haz lo mismo con la cebolla si la usas.",
+    "Calienta abundante aceite en una sartén y pocha las patatas y la cebolla a fuego medio durante 20 minutos.",
+    "Escurre bien el aceite y mezcla las patatas con los huevos batidos y sal. Deja reposar 5 minutos.",
+    "En una sartén antiadherente con un poco de aceite, vierte la mezcla a fuego medio. Cuando cuaje por los bordes, dale la vuelta con un plato.",
+    "Cocina 2-3 minutos más hasta que esté a tu gusto de jugosidad."
+  ],
+  "notas": "El secreto está en no pasarse con la cocción final — mejor que quede un poco jugosa por dentro."
+}

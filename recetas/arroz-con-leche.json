@@ -1,0 +1,24 @@
+{
+  "id": "arroz-con-leche",
+  "titulo": "Arroz con Leche",
+  "categoria": "Postres",
+  "tiempo": "50 min",
+  "raciones": 4,
+  "descripcion": "Postre tradicional cremoso con canela y limón, de los de toda la vida.",
+  "ingredientes": [
+    "200 g de arroz redondo",
+    "1 litro de leche entera",
+    "150 g de azúcar",
+    "1 rama de canela",
+    "Piel de 1 limón",
+    "Canela molida para decorar"
+  ],
+  "pasos": [
+    "Pon el arroz en una cazuela con agua fría y lleva a ebullición 2 minutos. Escurre y reserva.",
+    "Calienta la leche con la rama de canela y la piel de limón hasta que empiece a hervir.",
+    "Añade el arroz escurrido a la leche y cocina a fuego bajo removiendo constantemente durante 35-40 minutos.",
+    "Cuando el arroz esté muy cremoso y la leche haya espesado, añade el azúcar y remueve 5 minutos más.",
+    "Retira la canela y la piel de limón. Sirve en cuencos y espolvorea canela molida por encima."
+  ],
+  "notas": "Hay que remover sin parar para que no se pegue. Si espesa demasiado al enfriar, añade un poco de leche caliente."
+}

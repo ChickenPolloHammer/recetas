@@ -1,0 +1,27 @@
+{
+  "id": "gazpacho",
+  "titulo": "Gazpacho Andaluz",
+  "categoria": "Sopas y cremas",
+  "tiempo": "15 min",
+  "raciones": 6,
+  "descripcion": "Sopa fría de tomate perfecta para el verano, refrescante y llena de sabor.",
+  "ingredientes": [
+    "1 kg de tomates maduros",
+    "1 pepino",
+    "1 pimiento verde",
+    "1 diente de ajo",
+    "100 ml de aceite de oliva virgen extra",
+    "2 cucharadas de vinagre de jerez",
+    "Sal",
+    "Agua fría al gusto"
+  ],
+  "pasos": [
+    "Lava y trocea todos los vegetales en trozos grandes.",
+    "Tritura todo junto en la batidora hasta obtener una crema fina.",
+    "Añade el aceite poco a poco mientras sigues triturando para emulsionar.",
+    "Cuela la mezcla por un colador fino para eliminar pieles y pepitas.",
+    "Ajusta de sal y vinagre. Añade agua fría hasta la consistencia deseada.",
+    "Refrigera al menos 2 horas antes de servir bien frío."
+  ],
+  "notas": "Cuanto más maduros estén los tomates, mejor quedará. Se puede guardar en la nevera hasta 3 días."
+}

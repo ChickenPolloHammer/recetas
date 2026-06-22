@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Recetas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <div class="header-inner">
+      <div class="header-top">
+        <span class="header-eyebrow">Recetario de cocina</span>
+        <h1>Mis Recetas</h1>
+      </div>
+      <div class="search-wrap">
+        <input type="text" id="buscador" placeholder="Buscar por nombre, categoría o ingrediente…" />
+      </div>
+      <div class="filtros" id="filtros"></div>
+    </div>
+  </header>
+
+  <!-- LISTADO DE RECETAS -->
+  <main>
+    <div class="grid" id="grid"></div>
+    <p class="sin-resultados" id="sin-resultados" hidden>No se encontraron recetas.</p>
+  </main>
+
+  <!-- MODAL DETALLE -->
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" id="modal">
+      <button class="modal-cerrar" id="modal-cerrar" aria-label="Cerrar">✕</button>
+      <div id="modal-contenido"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Hecho con cariño 🍳</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
