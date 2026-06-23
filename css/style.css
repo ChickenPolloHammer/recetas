@@ -287,6 +287,42 @@ main {
 }
 .modal-nota strong { display: block; margin-bottom: .25rem; color: var(--arcilla); }
 
+/* ── ESCALAR RACIONES ───────────────────────────── */
+.escalar-wrap {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin: 1rem 0 .5rem;
+}
+.escalar-label {
+  font-size: .82rem;
+  color: var(--gris-suave);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.escalar-btn {
+  padding: .3rem .75rem;
+  border: 1.5px solid var(--arcilla);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--arcilla);
+  font-family: var(--sans);
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.escalar-btn:hover {
+  background: var(--arcilla);
+  color: var(--blanco);
+}
+.escalar-btn.activo {
+  background: var(--tierra-osc);
+  border-color: var(--tierra-osc);
+  color: var(--blanco);
+}
+
 /* ── BOTÓN COMPARTIR ────────────────────────────── */
 .modal-compartir {
   display: inline-block;

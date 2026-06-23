@@ -5,11 +5,8 @@ let textoBusqueda = '';
 
 // ── Carga de recetas ──────────────────────────────
 async function cargarRecetas() {
-  // Carga el índice de IDs
   const res = await fetch('recetas/index.json');
   const ids = await res.json();
-
-  // Carga cada receta en paralelo
   const promesas = ids.map(id =>
     fetch(`recetas/${id}.json`).then(r => r.json())
   );
@@ -18,7 +15,6 @@ async function cargarRecetas() {
   renderFiltros();
   renderGrid();
 
-  // Si la URL tiene un hash al cargar, abre esa receta
   if (location.hash) {
     const id = location.hash.slice(1);
     abrirModal(id);
@@ -91,10 +87,67 @@ function renderGrid() {
   });
 }
 
+// ── Escalar ingredientes ──────────────────────────
+// Convierte fracciones tipo "1/2", "3/4" a número decimal
+function fraccionADecimal(str) {
+  if (str.includes('/')) {
+    const [num, den] = str.split('/').map(Number);
+    return num / den;
+  }
+  return parseFloat(str);
+}
+
+// Formatea un número resultante de forma legible:
+// enteros sin decimales, fracciones comunes reconocibles, resto con 1 decimal
+function formatearNumero(n) {
+  if (Number.isInteger(n)) return String(n);
+
+  // Fracciones comunes → representación legible
+  const fracciones = [
+    [1/8, '1/8'], [1/4, '1/4'], [1/3, '1/3'], [3/8, '3/8'],
+    [1/2, '1/2'], [5/8, '5/8'], [2/3, '2/3'], [3/4, '3/4'], [7/8, '7/8'],
+    [1+1/4, '1 1/4'], [1+1/3, '1 1/3'], [1+1/2, '1 1/2'],
+    [1+2/3, '1 2/3'], [1+3/4, '1 3/4'],
+    [2+1/2, '2 1/2'], [2+1/3, '2 1/3'], [2+2/3, '2 2/3'],
+    [3+1/2, '3 1/2'],
+  ];
+  for (const [val, repr] of fracciones) {
+    if (Math.abs(n - val) < 0.01) return repr;
+  }
+  return n.toFixed(1).replace('.0', '');
+}
+
+// Escala todos los números (enteros, decimales y fracciones) de un texto
+function escalarTexto(texto, multiplicador) {
+  // Detecta: fracciones (1/2), decimales (1.5), enteros (200), con posible entero previo (1 1/2)
+  return texto.replace(/(\d+)\s+(\d+\/\d+)|(\d+\/\d+)|(\d*\.?\d+)/g, (match) => {
+    // Entero mixto tipo "1 1/2"
+    if (/^\d+\s+\d+\/\d+$/.test(match)) {
+      const [entero, frac] = match.split(/\s+/);
+      const valor = parseInt(entero) + fraccionADecimal(frac);
+      return formatearNumero(valor * multiplicador);
+    }
+    // Fracción sola tipo "1/2"
+    if (/^\d+\/\d+$/.test(match)) {
+      return formatearNumero(fraccionADecimal(match) * multiplicador);
+    }
+    // Número normal (entero o decimal)
+    const n = parseFloat(match);
+    if (isNaN(n)) return match;
+    return formatearNumero(n * multiplicador);
+  });
+}
+
+function renderIngredientes(ingredientes, multiplicador) {
+  return (ingredientes || []).map(i => `<li>${escalarTexto(i, multiplicador)}</li>`).join('');
+}
+
 // ── Modal de detalle ──────────────────────────────
-function abrirModal(id) {
+function abrirModal(id, multiplicador = 1) {
   const r = todasLasRecetas.find(rec => rec.id === id);
   if (!r) return;
+
+  const racionesEscaladas = r.raciones ? Math.round(r.raciones * multiplicador) : null;
 
   const contenido = document.getElementById('modal-contenido');
   contenido.innerHTML = `
@@ -103,12 +156,20 @@ function abrirModal(id) {
     <p class="modal-descripcion">${r.descripcion || ''}</p>
     <div class="modal-meta">
       <span>⏱ ${r.tiempo}</span>
-      <span>🍽 ${r.raciones} raciones</span>
+      ${racionesEscaladas ? `<span>🍽 <span id="raciones-val">${racionesEscaladas}</span> raciones</span>` : ''}
+    </div>
+
+    <div class="escalar-wrap">
+      <span class="escalar-label">Raciones:</span>
+      ${[1, 2, 3].map(m => `
+        <button class="escalar-btn ${m === multiplicador ? 'activo' : ''}"
+                onclick="abrirModal('${r.id}', ${m})">${m}x</button>
+      `).join('')}
     </div>
 
     <h3>Ingredientes</h3>
-    <ul>
-      ${(r.ingredientes || []).map(i => `<li>${i}</li>`).join('')}
+    <ul id="lista-ingredientes">
+      ${renderIngredientes(r.ingredientes, multiplicador)}
     </ul>
 
     <h3>Preparación</h3>
@@ -136,18 +197,13 @@ function abrirModal(id) {
   overlay.hidden = false;
   document.body.style.overflow = 'hidden';
 
-  // Actualiza la URL para que sea compartible
   history.replaceState(null, '', `#${id}`);
-
-  // Foco accesible
   document.getElementById('modal-cerrar').focus();
 }
 
 function cerrarModal() {
   document.getElementById('modal-overlay').hidden = true;
   document.body.style.overflow = '';
-
-  // Limpia el hash de la URL al cerrar
   history.replaceState(null, '', location.pathname);
 }
 
