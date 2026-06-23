@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Mis Recetas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div id="pantalla-login">
+    <div class="login-box">
+      <h1>🍳 Mis Recetas</h1>
+      <p>Panel de administración</p>
+      <input type="password" id="input-password" placeholder="Contraseña" />
+      <button id="btn-login">Entrar</button>
+      <p class="login-error" id="login-error" hidden>Contraseña incorrecta</p>
+    </div>
+  </div>
+
+  <!-- PANEL -->
+  <div id="pantalla-admin" hidden>
+    <header class="admin-header">
+      <div class="admin-header-inner">
+        <a href="index.html" class="admin-back">← Volver a recetas</a>
+        <h1>Nueva receta</h1>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <form id="form-receta" autocomplete="off">
+
+        <div class="campo-grupo dos-columnas">
+          <div class="campo">
+            <label>Título *</label>
+            <input type="text" id="titulo" placeholder="Ej: Brownie vegano" required />
+          </div>
+          <div class="campo">
+            <label>Categoría *</label>
+            <input type="text" id="categoria" placeholder="Ej: Postres" required list="lista-categorias" />
+            <datalist id="lista-categorias"></datalist>
+          </div>
+        </div>
+
+        <div class="campo-grupo tres-columnas">
+          <div class="campo">
+            <label>Tiempo</label>
+            <input type="text" id="tiempo" placeholder="Ej: 45 min" />
+          </div>
+          <div class="campo">
+            <label>Raciones</label>
+            <input type="number" id="raciones" placeholder="Ej: 4" min="1" />
+          </div>
+          <div class="campo">
+            <label>Fuente (URL)</label>
+            <input type="url" id="fuente" placeholder="https://..." />
+          </div>
+        </div>
+
+        <div class="campo">
+          <label>Descripción</label>
+          <input type="text" id="descripcion" placeholder="Una frase breve sobre la receta" />
+        </div>
+
+        <div class="campo">
+          <label>Ingredientes <span class="hint">— uno por línea</span></label>
+          <textarea id="ingredientes" rows="6" placeholder="200g tofu firme&#10;2 cucharadas salsa de soja&#10;1 cucharadita pimentón ahumado"></textarea>
+        </div>
+
+        <div class="campo">
+          <label>Preparación <span class="hint">— un paso por línea</span></label>
+          <textarea id="pasos" rows="8" placeholder="Tritura el tofu con las especias.&#10;Forma las piezas y cocina en sartén."></textarea>
+        </div>
+
+        <div class="campo">
+          <label>Notas <span class="hint">— opcional</span></label>
+          <textarea id="notas" rows="3" placeholder="Trucos, variaciones, sugerencias..."></textarea>
+        </div>
+
+        <div class="form-acciones">
+          <div class="preview-id">
+            ID: <code id="preview-id">—</code>
+          </div>
+          <button type="submit" id="btn-guardar">
+            <span id="btn-texto">💾 Guardar receta</span>
+          </button>
+        </div>
+
+      </form>
+
+      <div class="toast" id="toast" hidden></div>
+    </main>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
