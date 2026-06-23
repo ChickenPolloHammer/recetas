@@ -34,6 +34,33 @@ header {
 }
 .header-inner { max-width: 900px; margin: 0 auto; }
 
+.header-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-admin {
+  white-space: nowrap;
+  padding: .45rem 1rem;
+  border: 1.5px solid var(--arcilla);
+  border-radius: 999px;
+  color: var(--pergamino);
+  font-family: var(--sans);
+  font-size: .82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+  flex-shrink: 0;
+  align-self: center;
+}
+.btn-admin:hover {
+  background: var(--arcilla);
+  color: var(--blanco);
+}
+
 .header-eyebrow {
   display: block;
   font-family: var(--sans);

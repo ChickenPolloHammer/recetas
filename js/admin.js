@@ -31,7 +31,9 @@ function verificarPassword() {
   if (val === ADMIN_PASSWORD) {
     document.getElementById('pantalla-login').hidden = true;
     document.getElementById('pantalla-admin').hidden = false;
+    window.scrollTo({ top: 0, behavior: 'instant' });
     cargarCategorias();
+    document.getElementById('titulo').focus();
   } else {
     document.getElementById('login-error').hidden = false;
     document.getElementById('input-password').value = '';
