@@ -115,6 +115,11 @@ function abrirModal(id) {
       <strong>💡 Nota</strong>
       ${r.notas}
     </div>` : ''}
+
+    ${r.fuente ? `
+    <a class="modal-fuente" href="${r.fuente}" target="_blank" rel="noopener">
+      🔗 Ver receta original
+    </a>` : ''}
   `;
 
   const overlay = document.getElementById('modal-overlay');

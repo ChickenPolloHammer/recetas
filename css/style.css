@@ -261,6 +261,20 @@ main {
 }
 .modal ol li { padding-left: .25rem; }
 
+.modal-fuente {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-size: .85rem;
+  color: var(--hoja);
+  text-decoration: none;
+  border-bottom: 1px solid var(--hoja);
+  transition: color .2s, border-color .2s;
+}
+.modal-fuente:hover {
+  color: var(--tierra-osc);
+  border-color: var(--tierra-osc);
+}
+
 .modal-nota {
   margin-top: 1.5rem;
   padding: .9rem 1rem;
