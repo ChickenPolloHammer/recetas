@@ -287,6 +287,25 @@ main {
 }
 .modal-nota strong { display: block; margin-bottom: .25rem; color: var(--arcilla); }
 
+/* ── BOTÓN COMPARTIR ────────────────────────────── */
+.modal-compartir {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: .5rem 1.1rem;
+  background: var(--pergamino);
+  border: 1.5px solid var(--arcilla);
+  border-radius: var(--radio);
+  color: var(--tierra-osc);
+  font-family: var(--sans);
+  font-size: .85rem;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+}
+.modal-compartir:hover {
+  background: var(--arcilla);
+  color: var(--blanco);
+}
+
 /* ── FOOTER ─────────────────────────────────────── */
 footer {
   text-align: center;

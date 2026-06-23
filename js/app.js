@@ -17,6 +17,12 @@ async function cargarRecetas() {
 
   renderFiltros();
   renderGrid();
+
+  // Si la URL tiene un hash al cargar, abre esa receta
+  if (location.hash) {
+    const id = location.hash.slice(1);
+    abrirModal(id);
+  }
 }
 
 // ── Filtros de categoría ──────────────────────────
@@ -120,11 +126,18 @@ function abrirModal(id) {
     <a class="modal-fuente" href="${r.fuente}" target="_blank" rel="noopener">
       🔗 Ver receta original
     </a>` : ''}
+
+    <button class="modal-compartir" onclick="compartirReceta('${r.id}')">
+      📋 Copiar enlace
+    </button>
   `;
 
   const overlay = document.getElementById('modal-overlay');
   overlay.hidden = false;
   document.body.style.overflow = 'hidden';
+
+  // Actualiza la URL para que sea compartible
+  history.replaceState(null, '', `#${id}`);
 
   // Foco accesible
   document.getElementById('modal-cerrar').focus();
@@ -133,6 +146,9 @@ function abrirModal(id) {
 function cerrarModal() {
   document.getElementById('modal-overlay').hidden = true;
   document.body.style.overflow = '';
+
+  // Limpia el hash de la URL al cerrar
+  history.replaceState(null, '', location.pathname);
 }
 
 // ── Eventos globales ──────────────────────────────
@@ -148,6 +164,16 @@ document.getElementById('buscador').addEventListener('input', e => {
   textoBusqueda = e.target.value;
   renderGrid();
 });
+
+// ── Compartir receta ──────────────────────────────
+function compartirReceta(id) {
+  const url = `${location.origin}${location.pathname}#${id}`;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.querySelector('.modal-compartir');
+    btn.textContent = '✅ Enlace copiado';
+    setTimeout(() => { btn.textContent = '📋 Copiar enlace'; }, 2000);
+  });
+}
 
 // ── Arranque ──────────────────────────────────────
 cargarRecetas();
