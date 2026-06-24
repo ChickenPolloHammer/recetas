@@ -2,6 +2,12 @@
   "id": "test",
   "titulo": "Test",
   "categoria": "Test",
-  "ingredientes": [],
-  "pasos": []
+  "descripcion": "2",
+  "ingredientes": [
+    "2"
+  ],
+  "pasos": [
+    "2"
+  ],
+  "notas": "2"
 }
