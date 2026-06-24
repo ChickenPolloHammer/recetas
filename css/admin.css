@@ -187,6 +187,107 @@ body { background: var(--arena); color: var(--tinta); font-family: var(--sans); 
 #btn-guardar:hover:not(:disabled) { background: var(--tierra); }
 #btn-guardar:disabled { opacity: .6; cursor: not-allowed; }
 
+/* ── VOLVER (login) ──────────────────────────────── */
+.login-volver {
+  display: inline-block;
+  font-size: .82rem;
+  color: var(--gris-suave);
+  text-decoration: none;
+  margin-bottom: .5rem;
+  transition: color .2s;
+}
+.login-volver:hover { color: var(--tierra-osc); }
+
+/* ── SECCIONES ───────────────────────────────────── */
+.admin-separador {
+  border: none;
+  border-top: 2px solid var(--pergamino);
+  margin: 2.5rem 0;
+}
+.admin-seccion { display: flex; flex-direction: column; gap: 1.25rem; }
+.seccion-titulo {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  color: var(--tierra-osc);
+}
+.seccion-desc { font-size: .88rem; color: var(--gris-suave); }
+
+/* ── BORRAR ──────────────────────────────────────── */
+.borrar-wrap {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.borrar-wrap select {
+  flex: 1;
+  min-width: 200px;
+  padding: .65rem .9rem;
+  border: 1.5px solid var(--pergamino);
+  border-radius: var(--radio);
+  background: var(--blanco);
+  font-family: var(--sans);
+  font-size: .95rem;
+  color: var(--tinta);
+  outline: none;
+  cursor: pointer;
+  transition: border-color .2s;
+}
+.borrar-wrap select:focus { border-color: var(--arcilla); }
+#btn-borrar {
+  padding: .65rem 1.25rem;
+  background: var(--blanco);
+  border: 1.5px solid var(--rojo);
+  border-radius: var(--radio);
+  color: var(--rojo);
+  font-family: var(--sans);
+  font-size: .95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+}
+#btn-borrar:hover:not(:disabled) { background: var(--rojo); color: var(--blanco); }
+#btn-borrar:disabled { opacity: .4; cursor: not-allowed; }
+
+.confirmacion {
+  background: #fff5f5;
+  border: 1.5px solid var(--rojo);
+  border-radius: var(--radio);
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: .85rem;
+}
+.confirmacion p { font-size: .95rem; }
+.confirmacion-acciones { display: flex; gap: .75rem; }
+
+.btn-peligro {
+  padding: .6rem 1.25rem;
+  background: var(--rojo);
+  color: var(--blanco);
+  border: none;
+  border-radius: var(--radio);
+  font-family: var(--sans);
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+.btn-peligro:disabled { opacity: .6; cursor: not-allowed; }
+
+.btn-secundario {
+  padding: .6rem 1.25rem;
+  background: var(--blanco);
+  border: 1.5px solid var(--pergamino);
+  border-radius: var(--radio);
+  color: var(--tinta);
+  font-family: var(--sans);
+  font-size: .9rem;
+  cursor: pointer;
+  transition: border-color .2s;
+}
+.btn-secundario:hover { border-color: var(--gris-suave); }
+
 /* ── TOAST ───────────────────────────────────────── */
 .toast {
   position: fixed;

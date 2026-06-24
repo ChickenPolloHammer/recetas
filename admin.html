@@ -14,6 +14,7 @@
   <!-- LOGIN -->
   <div id="pantalla-login">
     <div class="login-box">
+      <a href="/" class="login-volver">← Volver a recetas</a>
       <h1>🍳 Mis Recetas</h1>
       <p>Panel de administración</p>
       <input type="password" id="input-password" placeholder="Contraseña" />
@@ -26,71 +27,101 @@
   <div id="pantalla-admin" hidden>
     <header class="admin-header">
       <div class="admin-header-inner">
-        <a href="index.html" class="admin-back">← Volver a recetas</a>
-        <h1>Nueva receta</h1>
+        <h1>Panel de administración</h1>
+        <a href="/" class="admin-back">← Volver a recetas</a>
       </div>
     </header>
 
     <main class="admin-main">
-      <form id="form-receta" autocomplete="off">
 
-        <div class="campo-grupo dos-columnas">
+      <!-- SECCIÓN AÑADIR -->
+      <section class="admin-seccion">
+        <h2 class="seccion-titulo">✨ Nueva receta</h2>
+        <form id="form-receta" autocomplete="off">
+
+          <div class="campo-grupo dos-columnas">
+            <div class="campo">
+              <label>Título *</label>
+              <input type="text" id="titulo" placeholder="Ej: Brownie vegano" required />
+            </div>
+            <div class="campo">
+              <label>Categoría *</label>
+              <input type="text" id="categoria" placeholder="Ej: Postres" required list="lista-categorias" />
+              <datalist id="lista-categorias"></datalist>
+            </div>
+          </div>
+
+          <div class="campo-grupo tres-columnas">
+            <div class="campo">
+              <label>Tiempo</label>
+              <input type="text" id="tiempo" placeholder="Ej: 45 min" />
+            </div>
+            <div class="campo">
+              <label>Raciones</label>
+              <input type="number" id="raciones" placeholder="Ej: 4" min="1" />
+            </div>
+            <div class="campo">
+              <label>Fuente (URL)</label>
+              <input type="url" id="fuente" placeholder="https://..." />
+            </div>
+          </div>
+
           <div class="campo">
-            <label>Título *</label>
-            <input type="text" id="titulo" placeholder="Ej: Brownie vegano" required />
+            <label>Descripción</label>
+            <input type="text" id="descripcion" placeholder="Una frase breve sobre la receta" />
           </div>
+
           <div class="campo">
-            <label>Categoría *</label>
-            <input type="text" id="categoria" placeholder="Ej: Postres" required list="lista-categorias" />
-            <datalist id="lista-categorias"></datalist>
+            <label>Ingredientes <span class="hint">— uno por línea</span></label>
+            <textarea id="ingredientes" rows="6" placeholder="200g tofu firme&#10;2 cucharadas salsa de soja&#10;1 cucharadita pimentón ahumado"></textarea>
           </div>
-        </div>
 
-        <div class="campo-grupo tres-columnas">
           <div class="campo">
-            <label>Tiempo</label>
-            <input type="text" id="tiempo" placeholder="Ej: 45 min" />
+            <label>Preparación <span class="hint">— un paso por línea</span></label>
+            <textarea id="pasos" rows="8" placeholder="Tritura el tofu con las especias.&#10;Forma las piezas y cocina en sartén."></textarea>
           </div>
+
           <div class="campo">
-            <label>Raciones</label>
-            <input type="number" id="raciones" placeholder="Ej: 4" min="1" />
+            <label>Notas <span class="hint">— opcional</span></label>
+            <textarea id="notas" rows="3" placeholder="Trucos, variaciones, sugerencias..."></textarea>
           </div>
-          <div class="campo">
-            <label>Fuente (URL)</label>
-            <input type="url" id="fuente" placeholder="https://..." />
+
+          <div class="form-acciones">
+            <div class="preview-id">ID: <code id="preview-id">—</code></div>
+            <button type="submit" id="btn-guardar">
+              <span id="btn-texto">💾 Guardar receta</span>
+            </button>
+          </div>
+
+        </form>
+      </section>
+
+      <!-- SEPARADOR -->
+      <hr class="admin-separador" />
+
+      <!-- SECCIÓN BORRAR -->
+      <section class="admin-seccion">
+        <h2 class="seccion-titulo">🗑 Borrar receta</h2>
+        <p class="seccion-desc">Selecciona la receta que quieres eliminar. Esta acción no se puede deshacer.</p>
+
+        <div class="borrar-wrap">
+          <select id="select-borrar">
+            <option value="">— Elige una receta —</option>
+          </select>
+          <button id="btn-borrar" disabled>Borrar</button>
+        </div>
+
+        <!-- Confirmación -->
+        <div id="confirmacion-borrar" class="confirmacion" hidden>
+          <p>¿Seguro que quieres borrar <strong id="nombre-a-borrar"></strong>?</p>
+          <div class="confirmacion-acciones">
+            <button id="btn-confirmar-borrar" class="btn-peligro">
+              <span id="btn-borrar-texto">Sí, borrar</span>
+            </button>
+            <button id="btn-cancelar-borrar" class="btn-secundario">Cancelar</button>
           </div>
         </div>
-
-        <div class="campo">
-          <label>Descripción</label>
-          <input type="text" id="descripcion" placeholder="Una frase breve sobre la receta" />
-        </div>
-
-        <div class="campo">
-          <label>Ingredientes <span class="hint">— uno por línea</span></label>
-          <textarea id="ingredientes" rows="6" placeholder="200g tofu firme&#10;2 cucharadas salsa de soja&#10;1 cucharadita pimentón ahumado"></textarea>
-        </div>
-
-        <div class="campo">
-          <label>Preparación <span class="hint">— un paso por línea</span></label>
-          <textarea id="pasos" rows="8" placeholder="Tritura el tofu con las especias.&#10;Forma las piezas y cocina en sartén."></textarea>
-        </div>
-
-        <div class="campo">
-          <label>Notas <span class="hint">— opcional</span></label>
-          <textarea id="notas" rows="3" placeholder="Trucos, variaciones, sugerencias..."></textarea>
-        </div>
-
-        <div class="form-acciones">
-          <div class="preview-id">
-            ID: <code id="preview-id">—</code>
-          </div>
-          <button type="submit" id="btn-guardar">
-            <span id="btn-texto">💾 Guardar receta</span>
-          </button>
-        </div>
-
-      </form>
+      </section>
 
       <div class="toast" id="toast" hidden></div>
     </main>
