@@ -261,6 +261,11 @@ body { background: var(--arena); color: var(--tinta); font-family: var(--sans); 
 .confirmacion p { font-size: .95rem; }
 .confirmacion-acciones { display: flex; gap: .75rem; }
 
+.confirmacion-aviso {
+  background: #fff8f0;
+  border-color: var(--arcilla);
+}
+
 .btn-peligro {
   padding: .6rem 1.25rem;
   background: var(--rojo);

@@ -210,12 +210,45 @@ async function githubDelete(path, mensaje, sha) {
 }
 
 // ── Guardar receta ────────────────────────────────
+let shaParaSobreescribir = null; // SHA del fichero existente si hay que sobreescribir
+
 document.getElementById('form-receta').addEventListener('submit', async e => {
   e.preventDefault();
-  await guardarReceta();
+  await comprobarYGuardar();
 });
 
-async function guardarReceta() {
+document.getElementById('btn-confirmar-sobreescribir').addEventListener('click', async () => {
+  document.getElementById('confirmacion-sobreescribir').hidden = true;
+  await guardarReceta(shaParaSobreescribir);
+  shaParaSobreescribir = null;
+});
+
+document.getElementById('btn-cancelar-sobreescribir').addEventListener('click', () => {
+  document.getElementById('confirmacion-sobreescribir').hidden = true;
+  shaParaSobreescribir = null;
+});
+
+async function comprobarYGuardar() {
+  const titulo = document.getElementById('titulo').value.trim();
+  const id = tituloAId(titulo);
+  const rutaReceta = `recetas/${id}.json`;
+
+  // Comprobar si ya existe
+  try {
+    const existente = await githubGet(rutaReceta);
+    // Existe — pedir confirmación
+    shaParaSobreescribir = existente.sha;
+    document.getElementById('nombre-sobreescribir').textContent = `"${titulo}"`;
+    const confirmacion = document.getElementById('confirmacion-sobreescribir');
+    confirmacion.hidden = false;
+    confirmacion.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  } catch {
+    // No existe — guardar directamente
+    await guardarReceta(null);
+  }
+}
+
+async function guardarReceta(shaReceta) {
   const btn = document.getElementById('btn-guardar');
   const btnTexto = document.getElementById('btn-texto');
   btn.disabled = true;
@@ -248,12 +281,6 @@ async function guardarReceta() {
     const rutaReceta  = `recetas/${id}.json`;
 
     btnTexto.textContent = '⏳ Subiendo receta...';
-    let shaReceta = null;
-    try {
-      const existente = await githubGet(rutaReceta);
-      shaReceta = existente.sha;
-    } catch { /* nueva receta */ }
-
     await githubPut(rutaReceta, jsonReceta, `✨ Nueva receta: ${titulo}`, shaReceta);
 
     btnTexto.textContent = '⏳ Actualizando índice...';
