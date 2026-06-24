@@ -16,6 +16,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
 html { font-size: 16px; }
 body { background: var(--arena); color: var(--tinta); font-family: var(--sans); min-height: 100vh; }
 
